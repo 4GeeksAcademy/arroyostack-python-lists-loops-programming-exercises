@@ -1,2 +1,12 @@
+start = 21
 
-#Your code go here:
+result_array = []
+while start > 0: 
+    if start % 5 == 0:
+        print(str(start) + "!" )
+    else: 
+        print(start)
+    start -= 1
+print("LIFTOFF")
+
+    
