@@ -10,14 +10,6 @@ tasks = [
 	{ "label": 'Make a trip', "done": False }
 ]
 
+
 #Your code go here:
-
-def get_done_tasks(task):
-    return True if task["done"] == True else False
-
-
-done_tasks = list(filter(get_done_tasks, tasks))
-
-print(done_tasks)
-
 

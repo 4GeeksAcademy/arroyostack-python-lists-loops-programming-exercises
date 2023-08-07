@@ -9,4 +9,16 @@ all_colors = [
 ]
 
 #Your code go here:
+def filter_color(color):
+    return True if color["sexy"] == True else False
+
+def generate_html(color):
+    html_element = f"<li>{color['label']}</li>"
+    return html_element
+
+filtered_color = list(filter(filter_color, all_colors))
+
+color_html = list(map(generate_html, filtered_color))
+
+print(color_html)
 

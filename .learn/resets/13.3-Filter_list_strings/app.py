@@ -7,10 +7,3 @@ names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','Logan
 
 
 #Your code go here:
-def get_names_with_am(name):
-    return True if "am" in name.casefold() else False
-
-
-names_starting_with_am = list(filter(get_names_with_am, names))
-
-print(names_starting_with_am)
